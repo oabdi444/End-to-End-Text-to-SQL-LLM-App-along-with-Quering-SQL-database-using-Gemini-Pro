@@ -7,7 +7,7 @@ import sqlite3
 import google.generativeai as genai
 
 ## Configure Genai Key
-genai.configure(api_key=os.getenv("AIzaSyC7MCd54RAvdKuFOjI7LgeMjI2t7Crh-ps"))
+genai.configure(api_key=os.getenv(""))
 
 ## Function To Load Google Gemini Model and provide queries as response
 def get_gemini_response(question, prompt):
