@@ -46,36 +46,24 @@ End-to-End-Text-to-SQL-LLM-App/
 Setup Instructions
 Clone the Repository
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/end-to-end-text-to-sql-llm-app.git
 cd end-to-end-text-to-sql-llm-app
 Set Up Virtual Environment
 
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 Install Dependencies
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Add Your Google API Key
 Create a .env file in the root directory with:
 
-ini
-Copy
-Edit
 GOOGLE_API_KEY=your_gemini_api_key_here
 Run the Application
 
-bash
-Copy
-Edit
 streamlit run test.py
 Example Prompts
 Input any of the following in the app's input field:
